@@ -1,0 +1,22 @@
+{
+  "name": "meanauthenticationapp",
+  "version": "1.0.0",
+  "description": "Simple MEAN Stack Authentication App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies":{
+    "express":"*",
+    "mongoose":"*",
+    "bcryptjs":"*",
+    "cors":"*",
+    "jsonwebtoken":"*",
+    "body-parser":"*",
+    "passport":"*",
+    "passport-jwt":"*"
+  },
+  "author": "Daniel Woodward",
+  "license": "ISC"
+}
